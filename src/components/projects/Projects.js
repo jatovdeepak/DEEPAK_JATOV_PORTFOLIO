@@ -1,5 +1,5 @@
-import React from 'react'
-import Title from '../layouts/Title'
+import React from 'react';
+import Title from '../layouts/Title';
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
@@ -11,50 +11,29 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title="VISIT MY PORTFOLIO AND SHARE YOUR FEEDBACK"
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="MEMORIES - Social Media Web App"
+          des="A full-stack social media web application built with the MERN stack, allowing users to create, read, update, and delete posts, similar to platforms like Facebook and Instagram."
           src={projectOne}
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="RENTIFY - Property Sharing App"
+          des="A web application designed to facilitate property transactions between buyers and sellers, featuring full CRUD operations and a user-friendly interface developed with ReactJS and Material-UI."
           src={projectTwo}
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="BUDDY AI - Virtual Assistant"
+          des="A Python-based virtual assistant for Windows, integrating speech recognition, NLP, and system automation to streamline daily tasks and improve productivity."
           src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
         />
       </div>
     </section>
   );
 }
 
-export default Projects
+export default Projects;

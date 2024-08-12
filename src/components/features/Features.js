@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaRobot , FaPlug , FaDatabase  } from "react-icons/fa";
+import { SiHomeassistant , SiAntdesign } from "react-icons/si";
 import Title from '../layouts/Title';
 import Card from './Card';
 
@@ -11,45 +11,40 @@ const Features = () => {
       id="features"
       className="w-full py-20 border-b-[1px] border-b-black"
     >
-      <Title title="Features" des="What I Do" />
+      <Title title="Features" des="What I Offer" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-         
-        />
-        <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Full-Stack Web Development"
+          des="Specializing in building dynamic and responsive web applications using the MERN stack—MongoDB, ExpressJS, ReactJS, and NodeJS."
           icon={<AiFillAppstore />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiProgress />}
+          title="Virtual Assistant Development"
+          des="Creating intelligent, Python-based virtual assistants to simplify and automate daily tasks, integrating advanced NLP and system control features."
+          icon={<FaRobot />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaMobile />}
+          title="Property Listing Applications"
+          des="Developing robust platforms like Rentify to facilitate seamless property transactions between buyers and sellers, with full CRUD operations."
+          icon={<SiHomeassistant />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="UI/UX Design"
+          des="Designing intuitive and visually appealing user interfaces using ReactJS and Material-UI, focused on enhancing user experience and accessibility."
           icon={<SiAntdesign />}
         />
         <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaGlobe />}
+          title="API Integration"
+          des="Expertise in integrating various APIs into applications to enhance functionality, including social media features, payment gateways, and more."
+          icon={<FaPlug />}
+        />
+        <Card
+          title="Database Management"
+          des="Skilled in managing cloud-based databases like MongoDB and MySQL, ensuring data integrity, security, and optimal performance."
+          icon={<FaDatabase />}
         />
       </div>
+
     </section>
   );
 }

@@ -11,53 +11,53 @@ const Experience = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2016 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Software Developer"
+            subTitle="Freelancer - (2022 - Present)"
+            result="Remote"
+            des="Developed and maintained various projects, including a social media app and a property sharing application, using modern web technologies and frameworks."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Project Developer"
+            subTitle="National Institute of Technology, Kurukshetra - (2022 - 2025)"
+            result="India"
+            des="Worked on several projects as part of the Master of Computer Applications curriculum, including a virtual assistant and a property details sharing app."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Intern"
+            subTitle="Various Companies - (2020 - 2022)"
+            result="India"
+            des="Gained experience through internships involving full-stack development, working with technologies such as ReactJS, NodeJS, and MongoDB."
           />
         </div>
       </div>
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Master of Computer Applications"
+            subTitle="National Institute of Technology, Kurukshetra - (2022 - 2025)"
+            result="India"
+            des="Pursuing a Master's degree with a focus on full-stack development and advanced software solutions."
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Bachelor of Science - Computer Applications"
+            subTitle="Chhindwara University - (2018 - 2022)"
+            result="India"
+            des="Completed undergraduate studies with a strong foundation in computer applications and programming."
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Senior School Certificate Examination, CBSE"
+            subTitle="Jawahar Navodaya Vidyalaya Seoni - (2016)"
+            result="India"
+            des="Completed secondary education with a focus on core academic subjects and extracurricular activities."
           />
         </div>
       </div>

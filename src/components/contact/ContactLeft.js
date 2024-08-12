@@ -16,8 +16,7 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          As a dedicated MERN Stack Developer, With hands-on experience in developing full-stack web applications, I am skilled in using ReactJS, NodeJS, ExpressJS, and MongoDB to create dynamic and responsive user experiences.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+919009022765</span>
@@ -29,15 +28,15 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+        <span className="bannerIcon">
+              <FaFacebookF onClick={() => window.location.href = "https://www.facebook.com/ritik.jatov?mibextid=LQQJ4d"}/>
+            </span>
+            <span className="bannerIcon">
+              <FaTwitter onClick={() => window.location.href = "https://x.com/DeepakJato56442"}/>
+            </span>
+            <span className="bannerIcon">
+              <FaLinkedinIn onClick={() => window.location.href = "https://www.linkedin.com/in/deepak-jatov-750008208/"} />
+            </span>
         </div>
       </div>
     </div>
